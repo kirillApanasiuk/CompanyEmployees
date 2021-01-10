@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nw56Sth2HIuXWTi61SDtYodKKW1ISF5cwdCLRI/9epQMXo8Ha9rdZomUoOmBOdk/FouqMT1H6lqIf+vYYGniZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\milid\\source\\repos\\CompanyEmployees\\Contracts\\Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\milid\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\milid\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

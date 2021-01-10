@@ -1,0 +1,9 @@
+C:\Users\milid\source\repos\CompanyEmployees\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\milid\source\repos\CompanyEmployees\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\milid\source\repos\CompanyEmployees\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\milid\source\repos\CompanyEmployees\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\milid\source\repos\CompanyEmployees\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\milid\source\repos\CompanyEmployees\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\milid\source\repos\CompanyEmployees\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\milid\source\repos\CompanyEmployees\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\milid\source\repos\CompanyEmployees\Entities\obj\Debug\netstandard2.0\Entities.pdb
