@@ -62,3 +62,5 @@ C:\Users\milid\source\repos\CompanyEmployees\CompanyEmployees\bin\Debug\netcorea
 C:\Users\milid\source\repos\CompanyEmployees\CompanyEmployees\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\milid\source\repos\CompanyEmployees\CompanyEmployees\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\milid\source\repos\CompanyEmployees\CompanyEmployees\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\milid\source\repos\CompanyEmployees\CompanyEmployees\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\milid\source\repos\CompanyEmployees\CompanyEmployees\bin\Debug\netcoreapp3.1\Repository.pdb

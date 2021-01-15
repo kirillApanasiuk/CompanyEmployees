@@ -1,0 +1,14 @@
+C:\Users\milid\source\repos\CompanyEmployees\Repository\bin\Debug\netstandard2.0\Repository.deps.json
+C:\Users\milid\source\repos\CompanyEmployees\Repository\bin\Debug\netstandard2.0\Repository.dll
+C:\Users\milid\source\repos\CompanyEmployees\Repository\bin\Debug\netstandard2.0\Repository.pdb
+C:\Users\milid\source\repos\CompanyEmployees\Repository\bin\Debug\netstandard2.0\Contracts.dll
+C:\Users\milid\source\repos\CompanyEmployees\Repository\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\milid\source\repos\CompanyEmployees\Repository\bin\Debug\netstandard2.0\Contracts.pdb
+C:\Users\milid\source\repos\CompanyEmployees\Repository\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\milid\source\repos\CompanyEmployees\Repository\obj\Debug\netstandard2.0\Repository.csprojAssemblyReference.cache
+C:\Users\milid\source\repos\CompanyEmployees\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfoInputs.cache
+C:\Users\milid\source\repos\CompanyEmployees\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfo.cs
+C:\Users\milid\source\repos\CompanyEmployees\Repository\obj\Debug\netstandard2.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\milid\source\repos\CompanyEmployees\Repository\obj\Debug\netstandard2.0\Repository.csproj.CopyComplete
+C:\Users\milid\source\repos\CompanyEmployees\Repository\obj\Debug\netstandard2.0\Repository.dll
+C:\Users\milid\source\repos\CompanyEmployees\Repository\obj\Debug\netstandard2.0\Repository.pdb

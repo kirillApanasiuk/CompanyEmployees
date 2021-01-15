@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Contracts
 {
-    class IEmployeeRepository
+   public interface IEmployeeRepository
     {
     }
 }
