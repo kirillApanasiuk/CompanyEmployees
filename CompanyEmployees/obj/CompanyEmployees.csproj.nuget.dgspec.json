@@ -28,9 +28,6 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\milid\\source\\repos\\CompanyEmployees\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\milid\\source\\repos\\CompanyEmployees\\Entities\\Entities.csproj"
-              },
               "C:\\Users\\milid\\source\\repos\\CompanyEmployees\\LoggerService\\LoggerService.csproj": {
                 "projectPath": "C:\\Users\\milid\\source\\repos\\CompanyEmployees\\LoggerService\\LoggerService.csproj"
               },
@@ -112,7 +109,11 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\milid\\source\\repos\\CompanyEmployees\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\milid\\source\\repos\\CompanyEmployees\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

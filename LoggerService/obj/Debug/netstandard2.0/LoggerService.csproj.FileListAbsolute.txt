@@ -10,3 +10,5 @@ C:\Users\milid\source\repos\CompanyEmployees\LoggerService\obj\Debug\netstandard
 C:\Users\milid\source\repos\CompanyEmployees\LoggerService\obj\Debug\netstandard2.0\LoggerService.csproj.CopyComplete
 C:\Users\milid\source\repos\CompanyEmployees\LoggerService\obj\Debug\netstandard2.0\LoggerService.dll
 C:\Users\milid\source\repos\CompanyEmployees\LoggerService\obj\Debug\netstandard2.0\LoggerService.pdb
+C:\Users\milid\source\repos\CompanyEmployees\LoggerService\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\milid\source\repos\CompanyEmployees\LoggerService\bin\Debug\netstandard2.0\Entities.pdb

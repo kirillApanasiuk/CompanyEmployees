@@ -4,9 +4,10 @@ using System.Text;
 
 namespace Contracts
 {
-    interface IRepositoryManager
+    public interface IRepositoryManager
     {
-        ICompanyRepository CompanyRepo { get; }
-        IEmployeeRepository EmployeeRepo { get}
+        ICompanyRepository Company { get; }
+        IEmployeeRepository Employee{ get; }
+        void Save();
     } 
 }

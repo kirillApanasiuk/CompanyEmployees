@@ -1306,6 +1306,9 @@
       "Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Contracts.dll": {}
         },
@@ -5144,7 +5147,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Entities >= 1.0.0",
       "LoggerService >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.6",
@@ -5179,9 +5181,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\milid\\source\\repos\\CompanyEmployees\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\milid\\source\\repos\\CompanyEmployees\\Entities\\Entities.csproj"
-            },
             "C:\\Users\\milid\\source\\repos\\CompanyEmployees\\LoggerService\\LoggerService.csproj": {
               "projectPath": "C:\\Users\\milid\\source\\repos\\CompanyEmployees\\LoggerService\\LoggerService.csproj"
             },

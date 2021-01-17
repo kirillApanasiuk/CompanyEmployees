@@ -13,7 +13,7 @@ namespace CompanyEmployees.Controllers
     public class WeatherForecastController : ControllerBase
     {
         private ILoggerManager _logger;
-
+        private IRepositoryManager _repository;
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly",
@@ -22,9 +22,13 @@ namespace CompanyEmployees.Controllers
         };
 
 
-        public WeatherForecastController(ILoggerManager logger)
+        public WeatherForecastController(
+            ILoggerManager logger,
+            IRepositoryManager repository
+            )
         {
             _logger = logger;
+            _repository = repository;
         }
 
         [HttpGet]
