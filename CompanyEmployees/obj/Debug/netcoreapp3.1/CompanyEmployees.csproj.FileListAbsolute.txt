@@ -64,3 +64,4 @@ C:\Users\milid\source\repos\CompanyEmployees\CompanyEmployees\bin\Debug\netcorea
 C:\Users\milid\source\repos\CompanyEmployees\CompanyEmployees\bin\Debug\netcoreapp3.1\Entities.pdb
 C:\Users\milid\source\repos\CompanyEmployees\CompanyEmployees\bin\Debug\netcoreapp3.1\Repository.dll
 C:\Users\milid\source\repos\CompanyEmployees\CompanyEmployees\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\milid\source\repos\CompanyEmployees\CompanyEmployees\bin\Debug\netcoreapp3.1\AutoMapper.dll

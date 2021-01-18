@@ -2,3 +2,10 @@
 2021-01-17 12:30:31.0932 DEBUG Here is debuf message from our valurs contorller
 2021-01-17 12:30:31.1094 WARN Here is warn message from our values controller.
 2021-01-17 12:30:31.1227 ERROR Here is an error message from our values controller
+2021-01-17 13:36:55.4400 ERROR Something went wrong it the GetCompanies action AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Company
+System.Object -> Entities.Models.Company
+   at lambda_method(Closure , Object , Company , ResolutionContext )
+   at CompanyEmployees.Controllers.CompaniesController.GetCompanies() in C:\Users\milid\source\repos\CompanyEmployees\CompanyEmployees\Controllers\CompaniesController.cs:line 45

@@ -1,4 +1,5 @@
-﻿using Contracts;
+﻿using AutoMapper;
+using Contracts;
 using Entities;
 using LoggerService;
 using Microsoft.AspNetCore.Builder;
@@ -37,6 +38,15 @@ namespace CompanyEmployees.Extensions
                 b => b.MigrationsAssembly("CompanyEmployees")
                 )
             );
+        public static void ConfigureAutoMapper(this IServiceCollection services)
+        {
+            var mapperConfig = new MapperConfiguration(mc =>
+                mc.AddProfile( new MappingProfile() )
+            );
+
+            IMapper mapper = mapperConfig.CreateMapper();
+            services.AddSingleton(mapper);
+        }
 
         public static void ConfigureRepositoryManager(this IServiceCollection services) => services
             .AddScoped<IRepositoryManager, RepositoryManager>();
