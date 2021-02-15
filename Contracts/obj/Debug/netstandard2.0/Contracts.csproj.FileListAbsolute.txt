@@ -1,12 +1,12 @@
 C:\Users\milid\source\repos\CompanyEmployees\Contracts\bin\Debug\netstandard2.0\Contracts.deps.json
 C:\Users\milid\source\repos\CompanyEmployees\Contracts\bin\Debug\netstandard2.0\Contracts.dll
 C:\Users\milid\source\repos\CompanyEmployees\Contracts\bin\Debug\netstandard2.0\Contracts.pdb
+C:\Users\milid\source\repos\CompanyEmployees\Contracts\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\milid\source\repos\CompanyEmployees\Contracts\bin\Debug\netstandard2.0\Entities.pdb
 C:\Users\milid\source\repos\CompanyEmployees\Contracts\obj\Debug\netstandard2.0\Contracts.csprojAssemblyReference.cache
 C:\Users\milid\source\repos\CompanyEmployees\Contracts\obj\Debug\netstandard2.0\Contracts.AssemblyInfoInputs.cache
 C:\Users\milid\source\repos\CompanyEmployees\Contracts\obj\Debug\netstandard2.0\Contracts.AssemblyInfo.cs
 C:\Users\milid\source\repos\CompanyEmployees\Contracts\obj\Debug\netstandard2.0\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\milid\source\repos\CompanyEmployees\Contracts\obj\Debug\netstandard2.0\Contracts.csproj.CopyComplete
 C:\Users\milid\source\repos\CompanyEmployees\Contracts\obj\Debug\netstandard2.0\Contracts.dll
 C:\Users\milid\source\repos\CompanyEmployees\Contracts\obj\Debug\netstandard2.0\Contracts.pdb
-C:\Users\milid\source\repos\CompanyEmployees\Contracts\bin\Debug\netstandard2.0\Entities.dll
-C:\Users\milid\source\repos\CompanyEmployees\Contracts\bin\Debug\netstandard2.0\Entities.pdb
-C:\Users\milid\source\repos\CompanyEmployees\Contracts\obj\Debug\netstandard2.0\Contracts.csproj.CopyComplete

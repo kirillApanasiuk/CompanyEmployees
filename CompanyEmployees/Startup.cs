@@ -1,4 +1,5 @@
 using CompanyEmployees.Extensions;
+using Contracts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -14,6 +15,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
+using CompanyEmployees.ActionFilters;
+using Entities.DataTransferObjects;
+using Repository.DataShaping;
 
 namespace CompanyEmployees
 {
@@ -31,7 +36,8 @@ namespace CompanyEmployees
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        // This method gets called by the runtime.
+        //Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.ConfigureCors();
@@ -41,10 +47,36 @@ namespace CompanyEmployees
             services.ConfigureSqlContext(Configuration);
             services.ConfigureAutoMapper();
             services.AddControllers();
+            services.AddScoped<ValidateEmployeForCompanyExistsAttribute>();
+            services.AddScoped<ValidationFilterAttribute>();
+            services.AddScoped<IDataShaper<EmployeeDto>,DataShaper<EmployeeDto>>();
+            services.Configure<ApiBehaviorOptions>(options => {
+                options.SuppressModelStateInvalidFilter = true;
+            });
+            services.AddControllers(config =>
+            {
+                config.RespectBrowserAcceptHeader = true;
+                config.ReturnHttpNotAcceptable = true;
+                config.CacheProfiles.Add("120SecodsDuration", new CacheProfile
+                {
+                    Duration = 120
+                });
+
+            }).AddNewtonsoftJson()
+                .AddXmlSerializerFormatters()
+                .AddCustomCSVFormater();
+            services.ConfigureVersioning();
+            services.ConfigureResponseCashing();
+            services.ConfigureHttpCacheHeaders();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        // This method gets called by the runtime.
+        //Use this method to configure the HTTP request pipeline.
+        public void Configure(
+            IApplicationBuilder app,
+            IWebHostEnvironment env, 
+            ILoggerManager logger
+            )
         {
             if (env.IsDevelopment())
             {
@@ -54,9 +86,8 @@ namespace CompanyEmployees
             {
                 app.UseHsts();
             }
-
+            app.ConfigureExceptionHandler(logger);
             app.UseHttpsRedirection();
-
             app.UseStaticFiles();
 
             app.UseCors("CorsPolicy");
@@ -68,6 +99,8 @@ namespace CompanyEmployees
                 }
             );
 
+            app.UseResponseCaching();
+            app.UseHttpCacheHeaders();
             app.UseRouting();
 
             app.UseAuthorization();

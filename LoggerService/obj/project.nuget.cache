@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iThmwVoiRHDzt8bXvBPzz2VCTa7jtVfQ+pmJC5wGdT0tS4Yu7CuthZMsH1BMjaAOe6mFKSN0oyhK9zOBHPPUzw==",
+  "dgSpecHash": "fckII6cWjRu+P0sALn3Od/UhogpFUVExJjC4gSYBApH8Btb7hJxOvhExhLxzn+MDMS3Kl53umUrmPquY5xUI0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\milid\\source\\repos\\CompanyEmployees\\LoggerService\\LoggerService.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\milid\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
     "C:\\Users\\milid\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\milid\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\milid\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\milid\\.nuget\\packages\\nlog\\4.6.4\\nlog.4.6.4.nupkg.sha512",
     "C:\\Users\\milid\\.nuget\\packages\\nlog.extensions.logging\\1.5.1\\nlog.extensions.logging.1.5.1.nupkg.sha512",
     "C:\\Users\\milid\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
