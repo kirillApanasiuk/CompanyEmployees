@@ -1,8 +1,5 @@
 ﻿using Contracts;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace CompanyEmployees.Controllers
@@ -10,6 +7,7 @@ namespace CompanyEmployees.Controllers
     [ApiVersion("2.0")]
     [Route("api/companies")]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "v2")]
     public class CompaniesV2Controller : Controller
     {
         private IRepositoryManager _repository;

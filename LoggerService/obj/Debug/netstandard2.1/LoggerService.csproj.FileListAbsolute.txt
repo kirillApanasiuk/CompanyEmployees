@@ -1,0 +1,14 @@
+C:\Users\User2\petProject\CompanyEmployees\LoggerService\bin\Debug\netstandard2.1\LoggerService.deps.json
+C:\Users\User2\petProject\CompanyEmployees\LoggerService\bin\Debug\netstandard2.1\LoggerService.dll
+C:\Users\User2\petProject\CompanyEmployees\LoggerService\bin\Debug\netstandard2.1\LoggerService.pdb
+C:\Users\User2\petProject\CompanyEmployees\LoggerService\bin\Debug\netstandard2.1\Contracts.dll
+C:\Users\User2\petProject\CompanyEmployees\LoggerService\bin\Debug\netstandard2.1\Entities.dll
+C:\Users\User2\petProject\CompanyEmployees\LoggerService\bin\Debug\netstandard2.1\Contracts.pdb
+C:\Users\User2\petProject\CompanyEmployees\LoggerService\bin\Debug\netstandard2.1\Entities.pdb
+C:\Users\User2\petProject\CompanyEmployees\LoggerService\obj\Debug\netstandard2.1\LoggerService.csprojAssemblyReference.cache
+C:\Users\User2\petProject\CompanyEmployees\LoggerService\obj\Debug\netstandard2.1\LoggerService.AssemblyInfoInputs.cache
+C:\Users\User2\petProject\CompanyEmployees\LoggerService\obj\Debug\netstandard2.1\LoggerService.AssemblyInfo.cs
+C:\Users\User2\petProject\CompanyEmployees\LoggerService\obj\Debug\netstandard2.1\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\User2\petProject\CompanyEmployees\LoggerService\obj\Debug\netstandard2.1\LoggerService.csproj.CopyComplete
+C:\Users\User2\petProject\CompanyEmployees\LoggerService\obj\Debug\netstandard2.1\LoggerService.dll
+C:\Users\User2\petProject\CompanyEmployees\LoggerService\obj\Debug\netstandard2.1\LoggerService.pdb

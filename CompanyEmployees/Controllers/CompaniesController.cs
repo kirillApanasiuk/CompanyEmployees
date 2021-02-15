@@ -7,6 +7,7 @@ using Entities.DataTransferObjects;
 using Entities.DataTransferObjects.Company;
 using Entities.Models;
 using Marvin.Cache.Headers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace CompanyEmployees.Controllers
     [ApiVersion("1.0")]
     [Route("api/companies")]
     [ApiController]
-    //[ResponseCache(CacheProfileName = "120SecodsDuration")]
+    [ApiExplorerSettings(GroupName = "v1")]
     public class CompaniesController : ControllerBase
     {
         private IRepositoryManager _repository;
@@ -43,8 +44,11 @@ namespace CompanyEmployees.Controllers
             return Ok();
         }
 
-        [HttpGet(Name = "GetCompany")]
-        [ResponseCache(Duration =60)]
+        /// <summary>
+        /// Gets the list of all companies
+        /// </summary>
+        /// <returns>The companies list</returns>
+        [HttpGet(Name = "GetCompany"), Authorize(Roles = "Manager")]
         public async Task<IActionResult> GetCompanies()
         {
             var companies = await
@@ -55,8 +59,8 @@ namespace CompanyEmployees.Controllers
         }
 
         [HttpGet("{id}", Name = "CompanyById")]
-        [HttpCacheExpiration(CacheLocation =CacheLocation.Public,MaxAge =60)]
-        [HttpCacheValidation(MustRevalidate =false)]
+        [HttpCacheExpiration(CacheLocation = CacheLocation.Public, MaxAge = 600)]
+        [HttpCacheValidation(MustRevalidate = false)]
         public async Task<IActionResult> GetCompany(Guid id)
         {
             var company = await
@@ -79,7 +83,18 @@ namespace CompanyEmployees.Controllers
 
         }
 
-        [HttpPost(Name ="CreateCompany")]
+        /// <summary>
+        /// Creates a newly created company
+        /// </summary>
+        /// <param name="company"></param>
+        /// <returns>A newly created company</returns>
+        /// <response code="201">Returns the newly created item</response>
+        /// <response code="400">If the item is null</response>
+        /// <response code="422">If the model is invalid</response>
+        [HttpPost(Name = "CreateCompany")]
+        [ProducesResponseType(201)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(422)]
         [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> CreateCompany(
          [FromBody] CompanyForCreationDto company
